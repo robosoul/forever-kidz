@@ -36,7 +36,7 @@
     '[ SOURCE ............. LUKA / CODENAME: ' + L.senderCodename + ' ]',
     '[ ENCRYPTION ......... 6 LAYERS · CLEARANCE: KIDZ ONLY ]',
     '',
-    '> AGENT ' + L.recipient + ', DO YOU ACCEPT THIS MISSION?'
+    '> ' + L.recipient + ', DO YOU ACCEPT THIS MISSION?'
   ];
 
   function buildBoot() {
@@ -93,9 +93,9 @@
       el('h1', {}, [el('span', { class: 'glitch', 'data-text': 'THE TRANSMISSION', text: 'THE TRANSMISSION' })]),
       el('div', { class: 'sub', text: 'a classified message · decode all six layers' }),
       el('div', { class: 'dossier' }, [
-        drow('TO', 'AGENT ' + L.recipient),
+        drow('TO', L.recipient + '  ·  codename ' + L.recipientCodename),
         drow('FROM', L.sender + '  ·  codename ' + L.senderCodename),
-        drow('CLEARANCE', 'KIDZ ONLY — no boring grown-ups (jk)'),
+        drow('CLEARANCE', 'KIDZ ONLY'),
         drow('PAYLOAD', '6 encrypted transmissions → 1 message'),
         drow('DIRECTIVE', 'decode everything. lose no kid energy.')
       ])
@@ -311,7 +311,7 @@
       'You cracked every layer — Caesar, numbers, machine-code, Morse, the mirror, and the lock they said couldn’t be picked. ' +
       'The average adult quits at transmission two. You are not an average adult. You are not any kind of adult.\n\n' +
       'By the power vested in nobody, I hereby make it official:\n\n' +
-      '★ WELCOME TO ' + L.club + ', AGENT ' + L.recipient + '. ★\nMembership: permanent. Rules: none, except keep the kid energy and never trust a school uniform.\n\n' +
+      '★ WELCOME TO ' + L.club + ', ' + L.recipientCodename + '. ★\nMembership: permanent. Rules: none, except keep the kid energy and never trust a school uniform.\n\n' +
       'Here’s the part I didn’t bother to encode — because I want you to read it straight, no tricks:';
 
     if (silent) {

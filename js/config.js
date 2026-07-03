@@ -17,8 +17,9 @@
 window.LETTER = {
 
   /* ---- who ---------------------------------------------------------------- */
-  recipient: 'KID',            // <-- put her name/codename here (e.g. 'AGENT MAIA')
-  sender:    'LUKA',           // <-- you (what she actually calls you)
+  recipient: 'SOFIJA',           // <-- her real name
+  recipientCodename: 'LADY BOSS',// <-- her secret-agent codename, for the game
+  sender:    'LUKA',             // <-- you (what she actually calls you)
   senderCodename: 'AGENT SMITH', // <-- your secret-agent codename, for the game
   club:      'THE ORDER OF FOREVER KIDZ',
 
