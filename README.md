@@ -51,9 +51,9 @@ Everything personal lives in **`js/config.js`**. No encoding by hand — you typ
 words, the site scrambles them live.
 
 ```js
-recipient: 'KID',          // ← her name or codename, e.g. 'AGENT MAIA'
-sender:    'UNCLE LUKA',
-closing:   'Forever kidz! Luv ya, your uncle Luka <3',
+recipient: 'KID',              // ← her name or codename, e.g. 'AGENT MAIA'
+sender:    'LUKA',             // ← what she actually calls you
+senderCodename: 'AGENT SMITH', // ← your codename, for the secret-agent game
 fullLetter: "…the whole letter, shown assembled at the end…",
 
 fragments: [

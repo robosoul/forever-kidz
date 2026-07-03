@@ -31,10 +31,10 @@
   /* ======================= BOOT ======================= */
   var bootLines = [
     '[ ESTABLISHING SECURE CHANNEL ................ OK ]',
-    '[ SCRAMBLING YOUR LOCATION .................... OK ]',
-    '[ SCANNING FOR NEARBY ADULTS ........ NONE. GOOD. ]',
-    '[ SOURCE ............... UNCLE LUKA / CODENAME: THE UNCLE ]',
-    '[ ENCRYPTION ........... 6 LAYERS · CLEARANCE: KIDZ ONLY ]',
+    '[ WARMING UP THE DECODER RINGS .............. OK ]',
+    '[ MEASURING KID-ENERGY ........... OFF THE CHARTS ]',
+    '[ SOURCE ............. LUKA / CODENAME: ' + L.senderCodename + ' ]',
+    '[ ENCRYPTION ......... 6 LAYERS · CLEARANCE: KIDZ ONLY ]',
     '',
     '> AGENT ' + L.recipient + ', DO YOU ACCEPT THIS MISSION?'
   ];
@@ -94,8 +94,8 @@
       el('div', { class: 'sub', text: 'a classified message · decode all six layers' }),
       el('div', { class: 'dossier' }, [
         drow('TO', 'AGENT ' + L.recipient),
-        drow('FROM', L.sender + '  ·  codename THE UNCLE'),
-        drow('CLEARANCE', 'KIDZ ONLY — adults will be prosecuted (jk)'),
+        drow('FROM', L.sender + '  ·  codename ' + L.senderCodename),
+        drow('CLEARANCE', 'KIDZ ONLY — no boring grown-ups (jk)'),
         drow('PAYLOAD', '6 encrypted transmissions → 1 message'),
         drow('DIRECTIVE', 'decode everything. lose no kid energy.')
       ])
@@ -291,7 +291,7 @@
     var paper = el('div', { class: 'letter-paper' }, [
       el('div', { class: 'stampclassified', text: 'DECLASSIFIED' }),
       el('div', { class: 'lp-body' }),
-      el('div', { class: 'sign', text: '— Uncle Luka' })
+      el('div', { class: 'sign', text: '— Luka' })
     ]);
     var body = paper.querySelector('.lp-body');
     var sign = paper.querySelector('.sign');

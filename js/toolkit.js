@@ -45,7 +45,7 @@
 
   /* ============ MAKE A SECRET (link generator) ============ */
   function buildMaker() {
-    var s = section('MAKE A SECRET', 'For members with clearance (that’s you, Uncle Luka). Type a message, lock it, and get a secret link to send. Whoever opens it gets a puzzle — not the answer.');
+    var s = section('MAKE A SECRET', 'For members with clearance (that’s you, Agent Smith). Type a message, lock it, and get a secret link to send. Whoever opens it gets a puzzle — not the answer.');
 
     var msg = el('textarea', { rows: '3', spellcheck: 'false', placeholder: 'the message you want to hide…' });
     var typeSel = el('select', {});

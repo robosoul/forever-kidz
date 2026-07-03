@@ -145,8 +145,8 @@
   }
   function footer(host) {
     host.appendChild(el('div', { class: 'foot' }, [
-      el('div', { text: 'TRANSMISSION SECURED · ADULTS: 0 · KIDZ: ∞' }),
-      el('div', { style: { marginTop: '6px' }, html: 'For your eyes only. Tell no grown-up.' })
+      el('div', { text: 'TRANSMISSION SECURED · POWERED BY PURE KID ENERGY' }),
+      el('div', { style: { marginTop: '6px' }, html: 'For your eyes only, Agent.' })
     ]));
   }
 

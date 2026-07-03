@@ -17,15 +17,14 @@
 window.LETTER = {
 
   /* ---- who ---------------------------------------------------------------- */
-  recipient: 'KID',          // <-- put her name/codename here (e.g. 'AGENT MAIA')
-  sender:    'UNCLE LUKA',   // <-- you
+  recipient: 'KID',            // <-- put her name/codename here (e.g. 'AGENT MAIA')
+  sender:    'LUKA',           // <-- you (what she actually calls you)
+  senderCodename: 'AGENT SMITH', // <-- your secret-agent codename, for the game
   club:      'THE ORDER OF FOREVER KIDZ',
 
-  /* ---- the closing line, revealed in the clear at the very end ------------ */
-  // This is the part she never has to decode. It just arrives, in your hand.
-  closing: 'Forever kidz! Luv ya, your uncle Luka <3',
-
   /* ---- the full letter, verbatim, shown assembled at the finale ----------- */
+  // The tail end of this (the "Luv ya" sign-off) is the part she never has to
+  // decode — it just arrives in the clear, in your hand, at the very end.
   fullLetter:
     "Hey kid, still stupid? Ha ha ha... just kidding. You know I miss you a lot. " +
     "I miss watching TV with you, talking about animation and graphic novels, " +
